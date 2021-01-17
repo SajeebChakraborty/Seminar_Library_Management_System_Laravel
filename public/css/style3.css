@@ -1,0 +1,243 @@
+*{margin: 0; padding: 0;}
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    background: url(../image/bg.jpg);
+    
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+    
+    
+}
+    .side{
+        margin-top: -200px;
+        margin-left: 780px;
+        letter-spacing: 10px;
+        line-height: 60px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Hanalei Fill', cursive;
+
+    }
+    div#wrapper {
+            padding: 350px 0;
+            display: inline-flex;
+            margin-left: 600px;
+    }
+    .login{
+        background: #1d1915c2;
+        width: 800px;
+        overflow: hidden;
+        position: absolute;
+        padding: 20px 30px 60px 30px;
+        border: 2px solid #ff9000;
+        border-radius: 10px;
+        left: 195px;
+        top: 100px;
+        margin-left:70px;
+        margin-top: 60px;
+    }
+.head_title{
+    color: white;
+    overflow:hidden;
+    text-align: center;
+}
+.logo {
+    width: 60px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 100%;
+}
+.head_title h2{
+    float: left;
+}
+.head_title a{
+    float: right;
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 0px 7px;
+}
+.head_title a:hover{background:rgb(37, 136, 37) }
+.loginBox{
+    margin: 20px;
+    color: white;
+}
+i.fa.fa-lock {
+    margin: 2px;
+}
+.loginBox strong{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+.loginBox input {
+    width: 92%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+
+    background-color: white;
+    border: 1px solid #ff9000;
+}
+select{
+
+    width: 92%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ff9000;
+
+
+}
+.loginBox #loginButton{
+    margin-top: 7px;
+    background: #daaa57;
+    color: whitesmoke;
+    transition: 0.3s;
+    width: 100px;
+}
+.loginBox #loginButton:hover{
+    background: #fda203;
+    cursor: pointer;
+}
+.footer a{
+    background: #daaa57;
+    color: white;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+.footer a:hover{/* background: rgb(37, 136, 37) */}
+.forgottenPasswoard span a{
+    color:skyblue;
+    text-decoration:none;
+}
+.forgottenPasswoard span a:hover{
+    text-decoration: underline;
+}
+.loginBox i {
+    margin-right: 5px;
+}
+
+input[type="checkbox"] {
+    margin: 0 5px 0 20px;
+}
+.forgottenPasswoard {
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-device-width: 425px) and (min-device-width: 320px){
+    div#wrapper {
+    padding: 350px 0px 160px 0px;
+}
+    .login{
+        background: #1d1915c2;
+        width: 80%;
+        overflow: hidden;
+        position: absolute;
+        padding: 100px 30px 90px 30px;
+        border: 2px solid #ff9000;
+        border-radius: 0px;
+        left: 0;
+        height: 152%;
+        top: 0;
+    }
+    .head_title{
+    color: white;
+    overflow:hidden;
+    text-align: center;
+    }
+    .logo {
+    width: 60px;
+    margin: 0 auto;
+    }
+    .logo img {
+    width: 100%;
+    }
+    .head_title h2{
+    float: left;
+    }
+    .head_title a{
+    float: right;
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 0px 7px;
+    }
+    .head_title a:hover{background:rgb(37, 136, 37) }
+    .loginBox{
+    margin: 20px;
+    color: white;
+    }
+    i.fa.fa-lock {
+    margin: 2px;
+    }
+    .loginBox strong{
+    font-size: 14px;
+    font-weight: 100;
+    }
+    .loginBox input {
+    width: 92%;
+    padding: 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ff9000;
+    }
+    .loginBox #loginButton{
+    margin-top: 7px;
+    background: #daaa57;
+    color: whitesmoke;
+    transition: 0.3s;
+    width: 80px;
+    }
+    .loginBox #loginButton:hover{
+    background: #fda203;
+    cursor: pointer;
+    }
+    .footer a{
+    background: #8c6c02;
+    color: white;
+    text-decoration: none;
+    padding: 10px 13px;
+    }
+    .footer a:hover{/* background: rgb(37, 136, 37) */}
+    .forgottenPasswoard span a{
+    color: blue;
+    text-decoration:none;
+    }
+    .forgottenPasswoard span a:hover{
+    text-decoration: underline;
+    }
+    .loginBox i {
+    margin-right: 5px;
+    }
+
+    input[type="checkbox"] {
+    margin-right: 5px;
+    
+    }
+    .forgottenPasswoard {
+    margin-top: 12px;
+    }
+    .side{
+        margin-top: -170px;
+        margin-left: 380px;
+        letter-spacing: 10px;
+        line-height: 60px;
+        color: white;
+        font-size: 20px;
+        font-family: 'Hanalei Fill', cursive;
+
+    }
+    body{
+
+        min-height: 230vh;
+    }
+}

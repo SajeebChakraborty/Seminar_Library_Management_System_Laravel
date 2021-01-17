@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:black; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+nav{
+
+  overflow-x: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  background: red;
+  width: 25%;
+  height: auto;
+  margin-left:-30px;
+ 
+ 
+
+}
+nav ul{
+  background: #1b1b1b;
+  height: 100%;
+  width: 100%;
+  padding-right: 50px;
+  
+  list-style: none;
+}
+nav ul li{
+  line-height: 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  
+}
+nav ul li:last-child{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  
+}
+nav ul li a{
+  position: relative;
+  color: white;
+  text-decoration: none!important;
+  font-size: 18px;
+  margin-left: 40px;
+  padding-left: 40px;
+  font-weight: 500;
+  display: block;
+  width: 100%;
+  border-left: 3px solid transparent;
+}
+nav ul li.active a{
+  color: cyan;
+  background: #1e1e1e;
+  border-left-color: cyan;
+}
+nav ul li a:hover{
+  background: #1e1e1e;
+}
+nav ul ul{
+  position: static;
+  display: none;
+}
+nav ul .feat-show.show5{
+  display: block;
+}
+nav ul .serv-show.show1{
+  display: block;
+  
+}
+nav ul .extra-show.show2{
+  display: block;
+}
+nav ul .shelf-show.show3{
+  display: block;
+}
+nav ul ul li{
+  line-height: 42px;
+  border-top: none;
+ 
+}
+nav ul ul li a{
+  font-size: 17px;
+  color: #e6e6e6;
+  text-decoration: none !important;
+  margin-left: 70px !important;
+  padding-left: 40px !important;
+
+
+  
+}
+nav ul li.active ul li a{
+  color: #e6e6e6;
+  background: #1b1b1b;
+  border-left-color: transparent;
+}
+nav ul ul li a:hover{
+  color: cyan!important;
+  background: #1e1e1e!important;
+}
+nav ul li a span{
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: transform 0.4s;
+}
+nav ul li a span.rotate{
+  transform: translateY(-50%) rotate(-180deg);
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 50px;
+  color: #202020;
+  
+ 
+  text-align: center;
+}
+.content .header{
+  font-size: 45px;
+  font-weight: 600;
+}
+.content p{
+  font-size: 30px;
+  font-weight: 500;
+}
+.user_info{
+
+  display:inline-flex;
+
+}
